@@ -20,17 +20,17 @@
 
 
 
-const form = document.querySelector("#testForm");
-const input = document.querySelector("input");
-const list = document.querySelector("#list");
+// const form = document.querySelector("#testForm");
+// const input = document.querySelector("input");
+// const list = document.querySelector("#list");
 
-form.addEventListener("submit", function(e) {
-    e.preventDefault();
-    const userInput1 = textInput1.value;
-    const userInput2 = textInput2.value;
-    const newLI = document.createElement("li");
-    newLI.innerText = `${userInput1} - ${userInput2}`;
-    list.append(newLI);
-    textInput1.value = "";
-    textInput2.value = "";
-})
+// form.addEventListener("submit", function(e) {
+//     e.preventDefault();
+//     const userInput1 = textInput1.value;
+//     const userInput2 = textInput2.value;
+//     const newLI = document.createElement("li");
+//     newLI.innerText = `${userInput1} - ${userInput2}`;
+//     list.append(newLI);
+//     textInput1.value = "";
+//     textInput2.value = "";
+// })
